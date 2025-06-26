@@ -19,7 +19,7 @@ const SlotGrid = () => {
       <div style={{ display: 'flex', justifyContent: 'center', gap: 20, flexWrap: 'wrap' }}>
         {symbols.map((s, i) => (
           <motion.img key={i}
-            src={s + '.png'} alt={s}
+            src={'/${s}.png'} alt={s}
             width="150" height="150"
             whileHover={{ scale: 1.1 }}
             style={{ borderRadius: 10, boxShadow: '0 0 12px red' }}
