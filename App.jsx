@@ -22,5 +22,5 @@ function App() {
     </div>
   );
 }
-// redeploy trigger 
+// trigger deploy 
 export default App;
