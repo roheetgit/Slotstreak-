@@ -14,7 +14,8 @@ function App() {
         color: "white",
         border: "none",
         cursor: "pointer"
-      }}>
+      }}         {/*  - close the style object */}
+      ></button>
         Login with Google
       </button>
       <br /><br />
